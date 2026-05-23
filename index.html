@@ -4,137 +4,179 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Le Huu Tho | Apple-Level Portfolio</title>
 
-<!-- CDN -->
+<title>Le Huu Tho | Senior Civil Engineer</title>
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;500;700&family=Inter&display=swap" rel="stylesheet">
 
 <style>
-:root {
---bg:#000;
---text:#fff;
+:root{
+--bg:#2b2b2b;
+--card:#3a3a3a;
 --accent:#c9a84c;
+--text:#f5f5f5;
 }
 
-body {
-background:var(--bg);
+body{
+background:linear-gradient(135deg,#2b2b2b,#1e1e1e);
 color:var(--text);
-font-family:Inter;
-scroll-behavior:smooth;
+font-family:system-ui;
 }
 
-/* HERO APPLE STYLE */
-.hero {
+.section{padding:100px 0;}
+
+.glass{
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(20px);
+border-radius:20px;
+padding:40px;
+}
+
+.card{
+background:var(--card);
+border:none;
+transition:0.3s;
+}
+.card:hover{
+transform:translateY(-10px);
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+margin-bottom:20px;
+transition:0.4s;
+}
+.gallery img:hover{
+transform:scale(1.1);
+}
+
+.hero{
 height:100vh;
 display:flex;
 align-items:center;
 justify-content:center;
 text-align:center;
 }
-
-.hero img {
-width:200px;
-border-radius:20px;
-box-shadow:0 20px 60px rgba(0,0,0,0.8);
-}
-
-.hero h1 {
-font-size:60px;
-font-weight:700;
-background:linear-gradient(to right,#fff,#aaa);
--webkit-background-clip:text;
-color:transparent;
-}
-
-/* GLASS */
-.glass {
-background:rgba(255,255,255,0.05);
-backdrop-filter:blur(20px);
-border-radius:20px;
-padding:40px;
-margin-top:40px;
-}
-
-/* CARD */
-.card {
-background:#111;
-border:none;
-transition:0.4s;
-overflow:hidden;
-}
-.card:hover {
-transform:scale(1.05);
-}
-
-/* IMAGE */
-.card img {
-height:220px;
-object-fit:cover;
-}
-
-.section {
-padding:100px 0;
-}
-
 </style>
 </head>
 
 <body>
 
 <!-- HERO -->
-<section class="hero container">
+<section class="hero">
 <div>
+<img src="THO.jpg" style="width:180px;border-radius:20px">
+<h1 class="mt-3">Le Huu Tho</h1>
+<h4 style="color:var(--accent)">Senior Civil Engineer</h4>
 
-<img src="THO.jpg" class="mb-4">
-
-<h1>Le Huu Tho</h1>
-
-<h3 style="color:var(--accent)">Senior Civil Engineer</h3>
-
-<p class="mt-3">
-Delivering high-performance infrastructure projects with precision, compliance, and efficiency.
+<p>
+Delivering infrastructure excellence through precision, discipline, and engineering innovation.
 </p>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section class="section container">
+<h2 style="color:var(--accent)">About</h2>
+<div class="glass">
+<p>
+Civil Engineer with over 7 years of experience in public infrastructure, construction supervision, and project management.
+Experienced in handling real-world construction challenges from planning to execution.
+</p>
+</div>
+</section>
+
+<!-- ENGINEERING PHILOSOPHY -->
+<section class="section container text-center">
+<h2 style="color:var(--accent)">Engineering Philosophy</h2>
+
+<p>“Engineering is not just building structures — it is building trust.”</p>
+<p>“Every millimeter matters, every decision shapes reality.”</p>
+<p>“Discipline on site creates excellence in results.”</p>
+
+</section>
+
+<!-- POETRY -->
+<section class="section container text-center">
+<h2 style="color:var(--accent)">Engineering Spirit</h2>
+
+<div class="glass">
+<p>
+“Đổ móng đời từ những viên gạch thô,<br>
+Dựng tương lai bằng từng khối bê tông,<br>
+Giữa nắng gió công trường và bản vẽ,<br>
+Người kỹ sư viết giấc mơ thành công.”
+</p>
+
+<p>
+“Steel and concrete shape the land,<br>
+Drawn from vision to skilled hand,<br>
+Every line and every beam,<br>
+Turns reality from dream.”
+</p>
+</div>
+</section>
+
+<!-- TECHNICAL -->
+<section class="section container">
+<h2 style="color:var(--accent)">Technical Expertise</h2>
+
+<div class="row">
+
+<div class="col-md-3"><div class="card p-3">AutoCAD<br><small>Technical drawings</small></div></div>
+<div class="col-md-3"><div class="card p-3">Project Planning<br><small>Cost & timeline</small></div></div>
+<div class="col-md-3"><div class="card p-3">Supervision<br><small>Quality & safety</small></div></div>
+<div class="col-md-3"><div class="card p-3">Infrastructure<br><small>Public projects</small></div></div>
 
 </div>
 </section>
 
 <!-- CASE STUDY -->
 <section class="section container">
-<h2 style="color:var(--accent)">Case Study – Public Infrastructure Project</h2>
+<h2 style="color:var(--accent)">Case Study</h2>
 
 <div class="glass">
-
-<h4>Role: Technical Officer</h4>
-
-<p>
-Led coordination of a multi-phase infrastructure project ensuring compliance with public investment regulations.
-</p>
+<p><b>Project:</b> Urban Infrastructure Development</p>
+<p><b>Role:</b> Site Manager</p>
 
 <ul>
-<li>Reduced project delay risk by 20%</li>
-<li>Optimized contractor coordination workflow</li>
-<li>Improved documentation processing speed by 30%</li>
+<li>Reduced project delays by 20%</li>
+<li>Improved coordination efficiency</li>
+<li>Optimized construction workflow</li>
 </ul>
 
+<p>
+This project required strong coordination between contractors, consultants, and government agencies.
+</p>
 </div>
 </section>
 
-<!-- PROJECT GALLERY (UPLOAD FILE AUTO) -->
+<!-- CONSTRUCTION PROCESS -->
+<section class="section container">
+<h2 style="color:var(--accent)">Construction Process Knowledge</h2>
+
+<div class="glass">
+<p>
+1. Site preparation and surveying<br>
+2. Foundation and structural work<br>
+3. Superstructure construction<br>
+4. Finishing and inspection<br>
+5. Project handover and evaluation
+</p>
+</div>
+</section>
+
+<!-- GALLERY -->
 <section class="section container">
 <h2 style="color:var(--accent)">Project Gallery</h2>
+<div class="row gallery">
+<div class="col-md-4"><img src="THO (4).jpg"></div>
+<div class="col-md-4"><img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd"></div>
+<div class="col-md-4"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab"></div>
+<div class="col-md-4"><img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811"></div>
 
-<div class="row">
-
-    <div class="col-md-4">
-        <div class="card">
-            <img src="THO (2).jpg">
-            <div class="p-3">THO (2).jpg</div>
-        </div>
-    </div>
-    
 </div>
 </section>
 
@@ -143,13 +185,13 @@ Led coordination of a multi-phase infrastructure project ensuring compliance wit
 <h2 style="color:var(--accent)">Contact</h2>
 
 <p>Email: Lehuutho7553@gmail.com</p>
-<p>Phone: +84 933 830 874</p>
+<p>Phone: 0933 830 874</p>
 <p>Location: Can Tho, Vietnam</p>
 
 </section>
 
 <footer class="text-center p-4">
-© 2026 Le Huu Tho – Apple Level Portfolio
+© 2026 Le Huu Tho | Engineering Portfolio
 </footer>
 
 </body>
